@@ -79,7 +79,7 @@ section.content article.content {
 	background-color: #0072bb;
 	color: #ffffff;
 }
-
+/* combined the section to the :content */
 section.content article.content img {
 	max-height: 200px;
 }
@@ -110,7 +110,7 @@ section.content article.content h2 {
     background-color: #2589bd;
 }
 
-consolidated 
+/* consolidated the subclasses */
 .subclass
   {
     margin-bottom: 32px;
@@ -129,6 +129,7 @@ consolidated
     margin: 10px auto;
     max-width: 150px;
 }
+
 
 .search-engine-optimization,
 .online-reputation-management,

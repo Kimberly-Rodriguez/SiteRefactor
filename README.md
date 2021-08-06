@@ -1,32 +1,42 @@
 # Site Refactor
 
-## Description
+This is an updated Horiseon website that aims to provided a more accessible and order experience
 
-To make this website more accessible to all viewers. 
-
-- What was your motivation?
-
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-
-- What problem does it solve?
-
-- What did you learn?
+The following features have been made to improve the fuctionality of the website : 
 
 
-## Old Features -> New Features
-
-- Changed title to Horiseon
-- Replaced div w/ header
-- Changed div to nav
-- Changed div to section
-- Changed div to article
-- Replaced div to aside
-- created a <article>
-- cobined the attributes for the following content in css
+Added a "header" section to create a hiarchical structure
+    - A "nav" section was added inside header section
 
 
-## Usage
-examples for use. 
+Added a "figure" to specify the main illustration on the top potion of the webpage
+
+
+Added a "section" / "article replacing the div for the main content
+    - search engine optimization
+    - online reputation management
+    - social media marketing
+    - class content created 
+
+
+Renamed the "search engine optimization" function in the nav bar 
+    - labeling "id" to link the search engine optimization section to the link in the nave bar
+
+
+Added a "aside" / "article" replacing the div for the vertical content
+    - created an alternative text description for all images
+    - created a class named "subclass"
+
+
+Consolidated the following "attributes" on css:
+    - .benefit-lead, .benefit-brand , .benefit-cost
+    - .benefit-lead h3, .benefit-brand h3, .benefit-cost h3
+    - .benefit-lead img, .benefit-brand img, .benfit-cost img
+
+
+Replaced a div with a footer to create natural follow of information
+
+
     
 ![websiteimage](assets/images/ScreenShot.png)
 
